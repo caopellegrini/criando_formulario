@@ -56,7 +56,7 @@ form {
 
     border-radius: 20px 20px 0px 0px;
 
-    padding: 53px 64px 72px 64px;
+    padding: 53px 64px 56px;
 
     display: flex;
     flex-direction: column;
@@ -91,6 +91,7 @@ fieldset {
 .input-wrapper {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .input-wrapper label {
@@ -99,8 +100,6 @@ fieldset {
     line-height: 24px;
 
     color: #4E4958;
-
-    margin-bottom: 8px;
 }
 
 .input-wrapper label span {
